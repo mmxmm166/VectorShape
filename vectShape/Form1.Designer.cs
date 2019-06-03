@@ -129,10 +129,12 @@
             // 
             // panel2
             // 
+            this.panel2.AutoSize = true;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(12, 31);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 25);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(826, 407);
+            this.panel2.Size = new System.Drawing.Size(850, 425);
             this.panel2.TabIndex = 8;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseClick);
